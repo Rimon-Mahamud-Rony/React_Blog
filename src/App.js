@@ -58,6 +58,19 @@ function App() {
     },
   ]);
 
+  const handleDelete = (id) => {
+    const listItems = Items.filter((single_item) => single_item.id !== id);
+    setItems(listItems);
+    localStorage.setItem("shoppinglist", JSON.stringify(listItems));
+  };
+
+  const handleCheck = (id) => {
+    //console.log(`key: ${id}`)
+    const listItems = Items.map((single_item) => single_item.id === id ? {...single_item, checked: !single_item.checked} : single_item);
+    setItems(listItems);
+    localStorage.setItem('shoppinglist', JSON.stringify(listItems));
+  };
+
 
 
   return (
@@ -66,10 +79,14 @@ function App() {
         <Header />
         <Content
           Items={Items}
-          setItems = {setItems}
+          setItems={setItems}
+          handleCheck={handleCheck}
+          handleDelete={handleDelete}
         />
       </main>
-      <Footer />
+      <Footer
+        length ={Items.length}
+      />
     </div>
   );
 }
