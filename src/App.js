@@ -1,12 +1,16 @@
-
 import './App.css';
+import Header from './header';
+import Content from './content';
+import Footer from './footer';
 
 function App() {
   return (
-    <div>
-      <p className='text-3xl text-center text-red-500 font-medium p-5'>
-          React blog app
-      </p>
+    <div className="min-h-screen flex flex-col">
+      <main className="flex-grow">
+        <Header />
+        <Content />
+      </main>
+      <Footer />
     </div>
   );
 }
