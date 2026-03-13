@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "checked": true,
+      "itemName": "আসিফ"
+    },
+    {
+      "id": "2",
+      "checked": true,
+      "itemName": "নোট"
+    },
+    {
+      "id": "3",
+      "checked": false,
+      "itemName": "মাহিদ"
+    },
+    {
+      "id": "4",
+      "checked": false,
+      "itemName": "সবুজ"
+    },
+    {
+      "id": "5",
+      "checked": false,
+      "itemName": "ফয়সাল"
+    },
+    {
+      "id": "6",
+      "checked": false,
+      "itemName": "সাগর"
+    },
+    {
+      "id": "7",
+      "checked": false,
+      "itemName": "মিতু"
+    },
+    {
+      "id": "8",
+      "checked": false,
+      "itemName": "সঊরভ"
+    },
+    {
+      "id": "9",
+      "checked": false,
+      "itemName": "নেহাল"
+    },
+    {
+      "id": "10",
+      "checked": false,
+      "itemName": "হুদাই"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
