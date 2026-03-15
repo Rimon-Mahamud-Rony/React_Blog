@@ -11,6 +11,9 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+### `npx json-server -p 3500 -w data/db.json`
+Runs the local server for data that is stored in the data/db.json and open at Open [http://localhost:3500/items](http://localhost:3500/items) to view it in your browser.
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
