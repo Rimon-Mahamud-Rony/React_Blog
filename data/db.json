@@ -2,12 +2,12 @@
   "items": [
     {
       "id": "1",
-      "checked": true,
+      "checked": false,
       "itemName": "আসিফ"
     },
     {
       "id": "2",
-      "checked": true,
+      "checked": false,
       "itemName": "নোট"
     },
     {
